@@ -1,0 +1,46 @@
+/* custom.css */
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.social-btn i {
+  font-size: 20px;
+}
+
+.social-btn.facebook {
+  background-color: #3b5998;
+}
+
+.social-btn.facebook:hover {
+  background-color: #2d4373;
+}
+
+.social-btn.google {
+  background-color: #db4437;
+}
+
+.social-btn.google:hover {
+  background-color: #c23321;
+}
+
+.social-btn.linkedin {
+  background-color: #0077b5;
+}
+
+.social-btn.linkedin:hover {
+  background-color: #005582;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4c51bf;
+  box-shadow: 0 0 0 3px rgba(76, 81, 191, 0.3);
+}
